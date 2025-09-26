@@ -36,7 +36,7 @@
 
 1. RAW ファイルを選択  
 2. 出力フォルダを設定（未指定なら `temp_results/`）  
-3. チャンネルを複数選択（未選択で既定 62 ch）  
+3. チャンネルを複数選択  
 4. 「スパイクソーティング開始」を押す
 
 実行完了後、ログ・HDF5・図は `temp_results/<RAW名>_spike_sort_<timestamp>/` に保存され、GUI 上のログも更新されます。
@@ -52,6 +52,25 @@ result = run_spike_sorting(
 )
 print(result["summary"])
 ```
+### GUI画像
+<img width="278" height="326" alt="image" src="https://github.com/user-attachments/assets/a0b6b50b-08e6-4118-9f5c-81f65f020ea0" />
+launch_synthetic_raw.pyw
+のGUI
 
-サンプル出力
-下記は GUI ランチャで得られる結果の例です。
+<img width="472" height="320" alt="image" src="https://github.com/user-attachments/assets/8a04c1f0-d6d7-4190-9bcb-e2f8ef98432e" />
+spike_sort_launcher_gui.pywのGUI
+
+### サンプル出力
+<img width="562" height="377" alt="image" src="https://github.com/user-attachments/assets/2a7f96e4-503f-4064-b122-714dfcefe953" />
+ソーティング後出力されるh5ファイルに複数chのスパイクタイム等が保存される。
+
+<img width="500" height="400" alt="test2ch_ch21_pca_cluster" src="https://github.com/user-attachments/assets/1e3b1cf5-e7ac-4ca2-ab61-5d2bfcaba621" />
+クラスタリング結果
+
+<img width="600" height="300" alt="test2ch_ch21_cluster1_waveforms" src="https://github.com/user-attachments/assets/82c55af6-45db-44cf-a476-088db231b45d" />
+<img width="600" height="300" alt="test2ch_ch21_cluster0_waveforms" src="https://github.com/user-attachments/assets/b59d85b5-b099-452f-aa8b-f70238163822" />
+各クラスターのスパイクのスーパーインポーズ画像
+
+
+
+
