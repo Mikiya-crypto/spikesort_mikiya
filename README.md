@@ -55,17 +55,17 @@ print(result["summary"])
 ### GUI画像
 <img width="278" height="326" alt="image" src="https://github.com/user-attachments/assets/a0b6b50b-08e6-4118-9f5c-81f65f020ea0" />  
 launch_synthetic_raw.pywのGUI  
-
+  
 <img width="472" height="320" alt="image" src="https://github.com/user-attachments/assets/8a04c1f0-d6d7-4190-9bcb-e2f8ef98432e" />  
 spike_sort_launcher_gui.pywのGUI  
-
+  
 ### サンプル出力  
-<img width="565" height="390" alt="image" src="https://github.com/user-attachments/assets/5eafa048-d943-4898-929b-2d9e3f7ecf21" />  
-ソーティング後出力されるh5ファイルに複数chのスパイクタイム等が保存される。  
-
-<img width="500" height="400" alt="test2ch_ch21_pca_cluster" src="https://github.com/user-attachments/assets/1e3b1cf5-e7ac-4ca2-ab61-5d2bfcaba621" />  
-クラスタリング結果  
-
+<img width="565" height="390" alt="image" src="https://github.com/user-attachments/assets/5eafa048-d943-4898-929b-2d9e3f7ecf21" />    
+ソーティング後出力されるh5ファイルに複数chのスパイクタイム等が保存される。    
+  
+<img width="500" height="400" alt="test2ch_ch21_pca_cluster" src="https://github.com/user-attachments/assets/1e3b1cf5-e7ac-4ca2-ab61-5d2bfcaba621" />    
+クラスタリング結果    
+  
 <img width="600" height="300" alt="test2ch_ch21_cluster1_waveforms" src="https://github.com/user-attachments/assets/82c55af6-45db-44cf-a476-088db231b45d" />  
 <img width="600" height="300" alt="test2ch_ch21_cluster0_waveforms" src="https://github.com/user-attachments/assets/b59d85b5-b099-452f-aa8b-f70238163822" />  
 各クラスターのスパイクのスーパーインポーズ画像  
