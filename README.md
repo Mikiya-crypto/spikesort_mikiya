@@ -24,15 +24,15 @@
 ### 1. 合成データの生成（任意）
 
 - CLI で生成:  
-python generate_synthetic_raw.py --output ./test.raw --channels 2 --duration 60
+```python generate_synthetic_raw.py --output ./test.raw --channels 2 --duration 60```
 - GUI で生成:  
-python launch_synthetic_raw.pyw
+```python launch_synthetic_raw.pyw```
 
 ### 2. 合成 RAW の確認
-python plot_synthetic_raw.py --input ./test.raw --channels 2
+```python plot_synthetic_raw.py --input ./test.raw --channels 2```
 
 ### 3. スパイクソート（GUI ランチャ）
-python spike_sort_launcher_gui.pyw
+```python spike_sort_launcher_gui.pyw```
 
 1. RAW ファイルを選択  
 2. 出力フォルダを設定（未指定なら `temp_results/`）  
